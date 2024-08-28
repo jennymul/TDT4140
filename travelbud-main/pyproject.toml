@@ -1,0 +1,23 @@
+[project]
+name = "api"
+version = "0.0.1"
+description = ""
+requires-python = ">=3.10"
+authors = [
+    {name = "Nicolai Sommervold", email="nicolans@stud.idi.ntnu.no"}
+]
+readme = "readme.md"
+
+dependencies = [
+    "pytest>=8.0.0",
+    "black>=24.1.1",
+    "django>=5.0.2",
+    "django-cors-headers>=4.3.1",
+    "djangorestframework>=3.14.0",
+]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+

@@ -1,0 +1,23 @@
+
+
+stages:
+  - test
+
+before_script:
+  - apt-get -yq update
+  - apt-get -yq install
+  - apt-get -yq install python3 python3-pip
+
+run-tests:
+  image: ubuntu:latest
+  stage: test
+  script:
+    - pip install .
+    - pytest
+
+run-formatter:
+  image: ubuntu:latest
+  stage: test
+  script:
+    - pip install .
+    - black . --check

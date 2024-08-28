@@ -1,0 +1,64 @@
+body {
+  background: rgb(179, 177, 177);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.destination-item {
+  height: 100%;
+  width: 360px;
+  padding: 100px;
+}
+
+.input {
+  padding: 5px;
+  margin: 2px;
+  height: 30px;
+  width: auto;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(193, 190, 190, 1);
+  border-width: 2px;
+}
+
+.messages {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.error {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  color: rgb(244, 71, 71);
+  width: fit-content;
+}
+
+.success {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  color: rgb(143, 233, 125);
+  width: fit-content;
+}
+
+/*.TextField {
+  font-size: larger;
+  color: rgb(0, 0, 0, 0.1);
+  padding: 5px;
+}
+*/
+
+.btnDest {
+  color: white;
+  background-color: rgb(193, 190, 190);
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgb(193, 190, 190, 1);
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 15px auto;
+}
